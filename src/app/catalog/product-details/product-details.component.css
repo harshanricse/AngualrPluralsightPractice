@@ -1,3 +1,7 @@
+.blue-border {
+  border: 3px solid blue;
+}
+
 .product {
   display: flex;
   justify-content: space-between;
