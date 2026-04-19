@@ -1,5 +1,6 @@
 <div class="product">
-<img src="{{'/images/robot-parts/' + product.imageName }}"/>
+<img [src]="'/images/robot-parts/' + product.imageName "
+ [alt]="product.name"/>
     <div class="details">
         <div>
             <h2>{{product.name}}</h2>
