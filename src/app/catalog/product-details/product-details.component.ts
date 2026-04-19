@@ -21,6 +21,9 @@ export class ProductDetailsComponent {
       price: 945.0,
       discount: 0.2
     }
+  }
 
+  getImageUrl(product: IProduct){
+    return '/images/robot-parts/' + product.imageName;
   }
 }
