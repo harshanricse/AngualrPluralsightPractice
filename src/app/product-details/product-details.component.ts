@@ -1,5 +1,5 @@
 import { Component, signal, input } from '@angular/core';
-import { IProduct } from '../../product.model';
+import { IProduct } from '../product.model';
 import { CurrencyPipe, NgClass } from '@angular/common';
 
 @Component({

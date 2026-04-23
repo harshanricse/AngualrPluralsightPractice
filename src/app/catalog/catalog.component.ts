@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ProductDetailsComponent } from '../product-details/product-details.component';
 import allProducts from '../products.json'
 
 @Component({
