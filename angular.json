@@ -51,6 +51,9 @@
           "defaultConfiguration": "production"
         },
         "serve": {
+          "options": {
+            "proxyConfig": "proxy.Conf.json"
+          },
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
